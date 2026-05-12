@@ -1,8 +1,8 @@
-import {Login} from "./pages/Login"
+import {Reservas} from "./pages/Reservas"
 function App() {
   return (
     <>
-      <Login />
+      <Reservas />
     </>
   )
 }
