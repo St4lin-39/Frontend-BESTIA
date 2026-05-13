@@ -1,10 +1,11 @@
-export function ReservaForm() {
+export function ReservaForm({sala}) {
 
     return (
 
         <div className="reserva-container">
 
             <h2>Reservar Sala</h2>
+            <p className = "sala-info">Sala seleccionada : {sala.nombre} </p>
 
             <form className="reserva-form">
 

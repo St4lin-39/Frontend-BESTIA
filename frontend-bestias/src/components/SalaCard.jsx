@@ -1,4 +1,4 @@
-export function SalaCard({ sala }) {
+export function SalaCard({ sala, setSalaSeleccionada }) {
 
     return (
 
@@ -14,7 +14,10 @@ export function SalaCard({ sala }) {
                 Capacidad: {sala.capacidad} personas
             </p>
 
-            <button className="primary-button">
+            <button 
+                className="primary-button"
+                onClick ={() => setSalaSeleccionada(sala)}
+                >
                 Reservar
             </button>
 

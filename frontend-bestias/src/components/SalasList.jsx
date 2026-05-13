@@ -1,7 +1,7 @@
 import {salas} from "../data/salas"
 import {SalaCard} from "./SalaCard"
 
-export function SalasList() {
+export function SalasList({ setSalaSeleccionada}) {
 
     return (
 
@@ -13,6 +13,7 @@ export function SalasList() {
                     <SalaCard
                         key={sala.id}
                         sala={sala}
+                        setSalaSeleccionada = {setSalaSeleccionada}
                     />
 
                 ))
