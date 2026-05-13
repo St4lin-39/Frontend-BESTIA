@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-
+import { Admin } from "./pages/Admin"
 import { Home } from "./pages/Home"
 import { Login } from "./pages/Login"
 import { Reservas } from "./pages/Reservas"
@@ -30,7 +30,10 @@ export function App() {
                 path="/confirmacion"
                 element={<Confirmacion />}
             />
-
+            <Route 
+              path = "/admin"
+              element = {<Admin />}
+            />
         </Routes>
     )
 }
