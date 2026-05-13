@@ -40,6 +40,11 @@ body{
   transition: 0.3s;
 }
 
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar-links li:hover{
   color: #ffd166;
 }
@@ -189,4 +194,98 @@ body{
 .sala-card button{
     margin-top: 15px;
     width: 100%;
+}
+
+/* RESERVA */
+
+.reserva-container{
+
+    background-color: white;
+
+    max-width: 500px;
+
+    margin: 50px auto;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.reserva-container h2{
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #8b0000;
+}
+
+.reserva-form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.reserva-form input{
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    border: 1px solid #ccc;
+}
+
+/* CONFIRMACION */
+
+.confirmacion-container{
+
+    background-color: white;
+
+    max-width: 500px;
+
+    margin: 80px auto;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.confirmacion-container h2{
+
+    color: #8b0000;
+
+    margin-bottom: 20px;
+}
+
+.clave-box{
+
+    background-color: #f4f6f9;
+
+    margin-top: 30px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+}
+
+.clave-box span{
+
+    display: block;
+
+    margin-top: 15px;
+
+    font-size: 1.5rem;
+
+    font-weight: bold;
+
+    color: #8b0000;
 }

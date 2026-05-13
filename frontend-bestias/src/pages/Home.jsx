@@ -1,4 +1,5 @@
-import Layout from "../components/Layout"
+import { Link } from "react-router-dom"
+import {Layout}  from "../components/Layout"
 export function Home(){
     return(
          <Layout>
@@ -11,9 +12,13 @@ export function Home(){
           Sistema inteligente de reservas de salas con integración IoT
         </p>
 
-        <button className="primary-button">
-          Reservar Sala
-        </button>
+        <Link to="/reservas">
+
+            <button className="primary-button">
+                Reservar Sala
+            </button>
+
+        </Link>
 
       </section>
 

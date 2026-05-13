@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export function Navbar(){
     return(
         <nav className = "navbar">
@@ -6,10 +7,15 @@ export function Navbar(){
             </div>
 
         <ul className="navbar-links">
-            <li>Inicio</li>
-            <li>Salas</li>
-            <li>Reservas</li>
-            <li>Login</li>
+            <li>
+                <Link to="/">Inicio</Link>
+            </li>
+            <li>
+                <Link to = "/reservas">Salas</Link>
+            </li>
+            <li>
+                <Link to = "/login">Login</Link>
+            </li>
       </ul>
         </nav>
     )
