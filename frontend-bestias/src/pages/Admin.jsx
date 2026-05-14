@@ -42,18 +42,6 @@ export function Admin() {
 
                     <h3>Datos del sistema</h3>
 
-                    <pre>
-{`[
-  {
-    "id": 1,
-    "usuario": "Luis",
-    "sala": "Salon 101",
-    "fecha": "2026-05-13",
-    "hora": "10:00"
-  }
-]`}
-                    </pre>
-
                 </div>
 
             </div>
